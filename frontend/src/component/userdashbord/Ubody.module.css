@@ -1,0 +1,31 @@
+.main {
+    width: 80%;
+    height: 100vh;
+    padding-top: 70px;
+    background-color: rgb(74, 74, 74);
+    position: absolute;
+    right: 0;
+    z-index: -1;
+
+}
+
+.main h3 {
+    text-align: center;
+}
+
+
+.sub {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.sub1 {
+    width: 29%;
+    background-color: white;
+   box-shadow: 0 0 5px gray;padding: 20px;
+   border-radius: 10px;
+
+}
