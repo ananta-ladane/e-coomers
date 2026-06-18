@@ -1,0 +1,80 @@
+.main {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(97, 97, 222), rgb(129, 27, 160));
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mt {
+    width: 25%;
+    position: absolute;
+    z-index: 1;
+
+    background-color: red;
+    border: 1px solid rgb(246, 245, 243);
+    padding: 15px;
+    border-radius: 10px;
+
+
+}
+
+.mt p {
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.mt .btn2 {
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.sub {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+
+
+}
+
+.sub h3 {
+    color: white;
+}
+
+.sub1 {
+    margin-top: 20px;
+
+}
+
+.sub1 input {
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.sub1 select {
+    width: 94%;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+.sub .btn1 {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+}

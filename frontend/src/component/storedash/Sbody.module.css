@@ -1,0 +1,49 @@
+.main {
+    width: 80%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    background-color: gray;
+    padding-top: 100px;
+}
+
+.sub {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.subdi1 {
+    width: 45%;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 300px;
+
+}
+
+.subdi1 p {
+    text-align: center;
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+
+.subdi2 {
+    width: 45%;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subdi2 p {
+
+    text-transform: capitalize;
+}
+
+
+.subdi2 h3 {}
